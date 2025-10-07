@@ -1,11 +1,11 @@
-title: Hi! we are the Debuggers
-description: CSP 2025-2026
+title: Hi! I'm Cyrus
+description: CSP 2025-2026 :3
 
 # ← use your real account/urls:
 url: "https://guyyuefangyuan.github.io"   # no trailing slash
 baseurl: "/Portfolio"                      # project pages = /<repo-name>
 
-github_username: guyyuefangyuan
+github_username: GuyYueFangYuan
 github_repo: "Portfolio"
 
 remote_theme: pages-themes/cayman@v0.2.0
