@@ -31,12 +31,7 @@ ctx.fillStyle = 'red';
 ctx.fillRect(100, 100, 200, 200);
 {% endcapture %}
 
-{% include ui-runner.html 
-   runner_id="visual1"
-   challenge=challenge1
-   code=code1
-   height="300px"
-%}{% endraw %}
+{% endraw %}
 ```
 
 ### Parameters
@@ -107,11 +102,7 @@ ctx.fillStyle = 'red';
 ctx.fillRect(100, 100, 200, 200);
 {% endcapture %}
 
-{% include ui-runner.html
-   runner_id="visual1"
-   challenge=challenge1
-   code=code1
-%}
+
 
 ---
 
@@ -183,12 +174,7 @@ draw();
 update();
 {% endcapture %}
 
-{% include ui-runner.html
-   runner_id="visual2"
-   challenge=challenge2
-   code=code2
-   height="400px"
-%}
+
 
 ---
 
@@ -230,12 +216,7 @@ button.addEventListener('click', () => {
 outputElement.appendChild(button);
 {% endcapture %}
 
-{% include ui-runner.html
-   runner_id="visual3"
-   challenge=challenge3
-   code=code3
-   height="250px"
-%}
+
 
 ---
 

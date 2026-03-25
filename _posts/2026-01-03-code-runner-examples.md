@@ -16,12 +16,7 @@ Fix the syntax error. Run the code to get a hint!
 print('Hello World'
 {% endcapture %}
 
-{% include code-runner.html
-   runner_id="exercise1"
-   language="python"
-   challenge=challenge1
-   code=code1
-%}
+
 
 ---
 
@@ -41,13 +36,7 @@ print(calculate_area(5, 3))
 print(calculate_area(10, 2))
 {% endcapture %}
 
-{% include code-runner.html
-   runner_id="exercise2"
-   language="python"
-   challenge=challenge2
-   code=code2
-   height="350px"
-%}
+
 
 ---
 
@@ -65,12 +54,7 @@ public class Main {
 }
 {% endcapture %}
 
-{% include code-runner.html
-   runner_id="exercise3"
-   language="java"
-   challenge=challenge3
-   code=code3
-%}
+
 
 ---
 
@@ -87,12 +71,7 @@ for (let i = ???; i <= ???; i++) {
 }
 {% endcapture %}
 
-{% include code-runner.html
-   runner_id="exercise4"
-   language="javascript"
-   challenge=challenge4
-   code=code4
-%}
+
 
 ---
 

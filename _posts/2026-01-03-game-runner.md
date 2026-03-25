@@ -122,12 +122,7 @@ export const gameLevelClasses = [CustomLevel];
 export { GameControl };
 {% endcapture %}
 
-{% include game-runner.html
-   runner_id="game1"
-   challenge=challenge1
-   code=code1
-   height="150px"
-%}
+
 
 ## Combine Game Levels: Connected levels via ESC key
 
@@ -143,11 +138,7 @@ export const gameLevelClasses = [GameLevelWater, GameLevelParallaxFish];
 export { GameControl };
 {% endcapture %}
 
-{% include game-runner.html
-   runner_id="game2"
-   challenge=challenge2
-   code=code2
-%}
+
 
 ## Best Practices
 

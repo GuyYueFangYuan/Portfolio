@@ -113,3 +113,12 @@ minima:
     - navigation/blog.md
     - navigation/search.md
     - navigation/about.md
+
+# Exclude generated course-specific files
+exclude:
+  - '_posts/**/*_csa.md'
+  - '_posts/**/*_csp.md'
+  - '_posts/**/*_csse.md'
+  - '_posts/**/*_content.md'
+  - '_notebooks/**/*_csa.ipynb'
+  - '_notebooks/**/*_csp.ipynb'
